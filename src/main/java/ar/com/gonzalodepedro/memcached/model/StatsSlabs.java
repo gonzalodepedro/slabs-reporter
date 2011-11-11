@@ -38,5 +38,19 @@ public class StatsSlabs {
 			this.slabClasses.put(sc.getClassId(), sc);
 		}
 	}
+
+	public int getActiveSlabs() {
+		return activeSlabs;
+	}
+
+	public int getTotalMalloced() {
+		return totalMalloced;
+	}
+
+	public Map<Integer, SlabClass> getSlabClasses() {
+		return slabClasses;
+	}
+	
+
 	
 }
